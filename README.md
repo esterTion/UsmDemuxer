@@ -1,8 +1,7 @@
-## UsmDemuxer - a simple demuxer
+# UsmDemuxer - a simple demuxer
 
-Code copied from [VGMToolBox](https://github.com/jeeb/vgmtoolbox/)  
-License unknown?
+Code copied from [VGMToolbox](https://sourceforge.net/p/vgmtoolbox/code/)
 
 ## Build
-Drag into Visual Studio, or build with mono `xbuild UsmDemuxer.sln`
 
+Drag into Visual Studio, or build with mono `xbuild UsmDemuxer.sln`
