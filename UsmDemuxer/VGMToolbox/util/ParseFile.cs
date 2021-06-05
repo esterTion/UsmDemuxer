@@ -1508,7 +1508,7 @@ namespace VGMToolbox.util
                     {
                         fileItem = GetNextVfsRecord(headerFs, vfsInformation, currentOffset, currentFileCount, sourcePath, outputFolderPath);
                     }
-                    catch(Exception exp)
+                    catch(Exception)
                     {
                         //throw new Exception("foo", exp);
                     }
@@ -1654,7 +1654,6 @@ namespace VGMToolbox.util
                             break;
                         default:
                             throw new Exception("Invalid relative location type for relative file name offset.");
-                            break;
                     }
                 }
 
@@ -1804,7 +1803,6 @@ namespace VGMToolbox.util
                         break;
                     default:
                         throw new InvalidDataException("Unknown relative location string for RIFF: " + offsetInfo.RelativeLocationToRiffChunkString);
-                        break;
                 }
 
                 // get the value
@@ -1894,7 +1892,6 @@ namespace VGMToolbox.util
                         break;
                     default:
                         throw new InvalidDataException("Unknown relative location string for bytes string search: " + offsetInfo.RelativeLocationToByteString);
-                        break;
                 }
 
                 // get the value
